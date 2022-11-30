@@ -1,0 +1,24 @@
+.to input{
+    display: none;
+}
+
+.from input{
+    display: none;
+}
+
+label{
+    padding: 5px;
+    display: inline-block;
+}
+
+input:checked ~ label{
+    background-color: aqua;
+}
+
+.from{
+    display: flex;
+}
+
+.to{
+    display: flex;
+}
